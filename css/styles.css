@@ -1,7 +1,8 @@
 @import "./grid.css";
 @import "./reset.css";
 :root {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Raleway";
+  font-size: 14px;
 }
 section {
   display: flex;
@@ -20,19 +21,20 @@ section {
   width: 100%;
   text-align: center;
 }
-
 .cardIcon {
   text-align: center;
-}
-i {
-  color: rgb(202, 52, 52);
-  padding: 10% 0;
+  padding-top: 10%;
+  filter: saturate(3207%) hue-rotate(130deg);
 }
 .cardContent {
-  padding: 5% 0;
+  padding: 5%;
 }
 h2 {
-  font-size: 20px;
-  font-weight: 600;
+  color: #2d3033;
+  font-weight: bold;
   padding: 5%;
+}
+span {
+  line-height: 21px;
+  color: #6c7279;
 }

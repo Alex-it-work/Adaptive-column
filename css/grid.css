@@ -9,9 +9,6 @@
 }
 .col {
   flex-basis: 100%;
-  min-width: 200px;
-  max-width: 350px;
-  margin: 0 1%;
 }
 
 /* 576-767 */
