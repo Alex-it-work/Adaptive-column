@@ -1,7 +1,7 @@
 @import "./grid.css";
 @import "./reset.css";
 :root {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 14px;
 }
 section {
